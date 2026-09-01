@@ -122,11 +122,11 @@ in the browser.
 
 ![Code Bits Editor](screenshots/Screenshot%202026-09-02%20005603.png)
 
-### Editor & Preview
+### AI Assistant
 
 ![Editor and Preview](screenshots/Screenshot%202026-09-02%20005615.png)
 
-### AI Assistant
+### Editor & Preview
 
 ![AI Assistant](screenshots/Screenshot%202026-09-02%20005635.png)
 
@@ -134,7 +134,7 @@ in the browser.
 
 ![Snippets and Tools](screenshots/Screenshot%202026-09-02%20005652.png)
 
-### Code Bits Interface
+### Code Bits Interface with Saved Snippets
 
 ![Code Bits Interface](screenshots/Screenshot%202026-09-02%20005708.png)
 
