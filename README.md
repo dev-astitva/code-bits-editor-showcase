@@ -138,7 +138,7 @@ The side menu and project controls, including language navigation, output tools,
 
 A generated project opened as a standalone output window, demonstrating how a project can be viewed separately from the main editor workspace.
 
-### 9.png — Workspace Loading Experience
+### 9.png — HTML+CSS
 
 ![Code Bits Editor — HTML+CSS](screenshots/9.png)
 
@@ -150,7 +150,7 @@ The Code Bits demo project loading screen, showing the application's startup exp
 
 The clean starter workspace with the default HTML structure and an empty preview, showing the starting point for a new project.
 
-### 11.png — Custom Loading Interface
+### 11.png — RAW HTML CODE
 
 ![Code Bits Editor — RAW HTML CODE](screenshots/11.png)
 
