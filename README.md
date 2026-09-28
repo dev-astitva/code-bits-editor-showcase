@@ -11,9 +11,9 @@
 
 **Code Bits Editor** is a personal browser-based development environment designed and built from scratch by **Astitva Srivastava**.
 
-The goal is to make front-end experimentation quick and convenient without requiring a traditional local development setup for every small idea. The editor brings HTML, CSS, JavaScript, preview, console output, snippets, and optional AI assistance into one workspace.
+It brings HTML, CSS, JavaScript, live preview, console output, snippets, export tools, and optional AI assistance into a single workspace for rapid front-end experimentation.
 
-The project is designed primarily as a client-side web experience, with supporting services used where necessary for features such as AI-assisted generation.
+The project is designed to make it easy to move from an idea to a working browser-based prototype without constantly switching between separate tools.
 
 ---
 
@@ -27,126 +27,134 @@ Dedicated **Ace Editor** panes for:
 - CSS
 - JavaScript
 
-Each language can be switched from the interface while keeping the editing workflow in one workspace.
+Switch between languages from the interface while keeping the entire project in one workspace.
 
 ### ⚡ Interactive Preview
 
-Run the current project directly in the browser and see the result alongside the editor.
+Run your current front-end project directly in the browser and view the result alongside the editor.
 
-The preview environment is designed for experimenting with complete front-end pages, including HTML structure, CSS styling, and JavaScript behavior.
+The preview workflow supports complete HTML documents, styling, and JavaScript-driven interactions.
 
 ### 🖥️ Responsive Workspace
 
-Adjust the balance between the editor and preview area to focus on either coding or output.
+Adjust the editor/preview balance to give more space to coding or output depending on the task.
 
-The interface also adapts its workspace behavior for different screen sizes.
+The interface also includes screen-size handling for the overall workspace.
 
 ### 🖥️ Integrated Console
 
-JavaScript output and runtime messages can be viewed directly inside Code Bits Editor through the built-in console.
-
-This makes it possible to experiment with JavaScript without constantly switching to browser developer tools.
+View JavaScript logs, warnings, errors, and runtime messages directly inside Code Bits Editor without relying entirely on browser developer tools.
 
 ### 📝 Snippet Manager
 
-Create a personal collection of reusable snippets.
+Build a personal collection of reusable code.
 
-The snippet workspace supports:
+The snippet workflow supports:
 
 - Saving snippets
 - Searching snippets
 - Editing saved snippets
 - Copying snippets
 - Deleting snippets
-- Saving complete projects as snippets
+- Saving project code as a snippet
 
 ### 🤖 AI-Assisted Code Generation
 
-An optional AI assistant helps generate HTML, CSS, or JavaScript from a natural-language description.
+An optional AI assistant can generate HTML, CSS, or JavaScript from a natural-language description.
 
 Generated code can be:
 
 - Copied
-- Inserted directly into the active editor
+- Inserted into the editor
 - Saved as a reusable snippet
 
 ### 💾 Local Persistence
 
-Editor content and saved snippets are persisted in the browser so work can survive a page reload.
+Editor content and saved snippets persist locally in the browser, allowing work to survive a page refresh.
 
 ### 📦 Export & Output Tools
 
-The application provides tools for working with the current project outside the editor, including:
+Work with the current project outside the editor through:
 
-- Copying the combined project code
-- Downloading the project as an HTML file
-- Opening the current project in a separate output window
+- Copying the combined project
+- Downloading an HTML file
+- Opening the project in an output window
 
 ### ⌨️ Keyboard Shortcuts
 
-Common editor actions such as language switching, preview refresh, menu control, and copying can be accessed through keyboard shortcuts.
+Common actions such as language switching, preview refresh, menu control, and copying are available through keyboard shortcuts.
 
 ---
 
 ## Screenshots
 
-> Place the screenshots below inside the `screenshots/` folder using the exact filenames shown.
+The screenshots below are arranged to show the editor as a complete workflow: **write → preview → debug → style → generate → save → manage → export**.
 
 ### 1.png — Main Workspace
 
 ![Code Bits Editor — Main Workspace](screenshots/1.png)
 
-The primary Code Bits workspace showing the editor, application controls, preview area, and overall interface.
+The core Code Bits workspace with the code editor, preview area, adjustable workspace split, and application chrome visible together.
 
----
+### 2.png — Preview & Integrated Console
 
-### 2.png — HTML + Live Preview
+![Code Bits Editor — Preview and Console](screenshots/2.png)
 
-![Code Bits Editor — HTML Preview](screenshots/2.png)
+A compact editor/preview layout showing the rendered project together with the integrated console for inspecting runtime output.
 
-Show a meaningful HTML example running in the preview. Prefer a small but visually recognizable page rather than an empty document.
+### 3.png — JavaScript & Console
 
----
+![Code Bits Editor — JavaScript and Console](screenshots/3.png)
 
-### 3.png — CSS Styling Workflow
+The JavaScript editor with `console.log`, `console.warn`, and `console.error` output appearing directly inside the Code Bits console.
 
-![Code Bits Editor — CSS Styling](screenshots/3.png)
+### 4.png — CSS Styling Workflow
 
-Show the CSS editor with a clearly styled project visible in the preview. This screenshot should demonstrate that the editor is useful for real visual experimentation.
+![Code Bits Editor — CSS Styling](screenshots/4.png)
 
----
+The CSS editing workflow, demonstrating syntax highlighting and live project styling alongside the output area.
 
-### 4.png — JavaScript + Console
+### 5.png — AI Assistant
 
-![Code Bits Editor — JavaScript Console](screenshots/4.png)
+![Code Bits Editor — AI Assistant](screenshots/5.png)
 
-Show JavaScript in the editor together with useful console output in Code Bits' integrated console.
+The AI workspace showing a natural-language request and a generated snippet that can be reviewed, copied, inserted, or saved.
 
-A good example is a small interactive project that logs values, events, or results rather than displaying an error.
+### 6.png — Snippet Manager
 
----
+![Code Bits Editor — Snippet Manager](screenshots/6.png)
 
-### 5.png — Snippet Manager
+The reusable snippet workspace with saved code, search, and snippet actions.
 
-![Code Bits Editor — Snippet Manager](screenshots/5.png)
+### 7.png — Workspace Controls & New Project
 
-Show the Saved Snippets interface with several well-named snippets visible. The screenshot should make the save, search, and reusable-code workflow obvious.
+![Code Bits Editor — Workspace Controls](screenshots/7.png)
 
----
+The side menu and project controls, including language navigation, output tools, creating a new project, snippets, download, and other workspace actions.
 
-### 6.png — AI Assistant
+### 8.png — Output Window
 
-![Code Bits Editor — AI Assistant](screenshots/6.png)
+![Code Bits Editor — Output Window](screenshots/8.png)
 
-Show the AI tab generating a useful HTML/CSS/JavaScript snippet. Keep the prompt and generated result readable so the purpose of the feature is immediately clear.
+A generated project opened as a standalone output window, demonstrating how a project can be viewed separately from the main editor workspace.
 
----
+### 9.png — Workspace Loading Experience
 
-### 7.png — Workspace / Output Workflow
+![Code Bits Editor — Loading Experience](screenshots/9.png)
 
-![Code Bits Editor — Workspace and Output](screenshots/7.png)
+The Code Bits workspace loading screen, showing the application's startup experience before the editor becomes available.
 
-Show a strong final-project workflow such as an expanded preview, adjusted editor/preview split, or the output window. Use this screenshot to demonstrate the flexibility of the workspace rather than repeating the main editor view.
+### 10.png — Starter Project
+
+![Code Bits Editor — Starter Project](screenshots/10.png)
+
+The clean starter workspace with the default HTML structure and an empty preview, showing the starting point for a new project.
+
+### 11.png — Custom Loading Interface
+
+![Code Bits Editor — Custom Loading Interface](screenshots/11.png)
+
+A project that uses the editor to build a custom loading interface, demonstrating that Code Bits can be used to prototype complete front-end experiences rather than isolated code snippets.
 
 ---
 
@@ -164,28 +172,28 @@ Show a strong final-project workflow such as an expanded preview, adjusted edito
 
 ## How It Works
 
-Code Bits Editor combines a few focused layers:
+Code Bits Editor combines several focused parts into one browser workspace:
 
-- **HTML** defines the application structure and interface.
-- **CSS** controls the layout, visual design, responsive behavior, and overlays.
-- **JavaScript** manages the editors, project state, persistence, snippets, preview workflow, console, shortcuts, and integrations.
-- A dedicated preview environment is used for running the user's front-end project separately from the main editor experience.
+- **HTML** provides the application structure.
+- **CSS** controls layout, visual styling, responsive behavior, and overlays.
+- **JavaScript** manages editor state, persistence, preview execution, console output, snippets, shortcuts, and integrations.
+- Supporting services are used where necessary for features such as AI-assisted generation.
 
-The result is a single browser workspace for writing code, experimenting with it, and managing small reusable pieces of work.
+The result is a lightweight environment for experimenting with front-end ideas and turning them into working browser experiences.
 
 ---
 
 ## AI Assistant
 
-The optional AI assistant is designed around a simple workflow:
+The optional AI assistant follows a simple workflow:
 
 1. Choose HTML, CSS, or JavaScript.
-2. Describe what you want to build.
-3. Generate a snippet.
-4. Review the result.
-5. Copy it, insert it into the editor, or save it for reuse.
+2. Describe the desired functionality.
+3. Generate code.
+4. Review the generated result.
+5. Copy it, insert it into the editor, or save it as a snippet.
 
-The AI functionality is an enhancement to the editor rather than a requirement for using the core HTML/CSS/JavaScript workflow.
+The AI feature is optional; the core HTML/CSS/JavaScript editor works independently of it.
 
 ---
 
@@ -195,7 +203,7 @@ Try the deployed application:
 
 **[Launch Code Bits Editor](https://code-bits-editor.vercel.app/)**
 
-The live deployment is primarily intended for demonstration and portfolio purposes.
+The live deployment is provided primarily for demonstration and portfolio purposes.
 
 ---
 
@@ -203,9 +211,9 @@ The live deployment is primarily intended for demonstration and portfolio purpos
 
 This repository is a **public project showcase**.
 
-The complete source code, internal implementation details, deployment configuration, and private development infrastructure are intentionally not included here.
+The complete source code, private implementation details, internal development infrastructure, and deployment configuration are intentionally not included here.
 
-The repository is intended to document the project, demonstrate its capabilities, and provide a link to the deployed application.
+The public repository is intended to document the project, demonstrate its capabilities, and provide access to the deployed application.
 
 ---
 
