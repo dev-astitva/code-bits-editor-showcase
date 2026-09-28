@@ -1,91 +1,152 @@
 # Code Bits Editor
 
-> A browser-based development environment for writing, previewing, and experimenting with HTML, CSS, and JavaScript — with integrated snippets, console tools, and optional AI-powered code generation.
+> A browser-based development environment for writing, previewing, and experimenting with **HTML, CSS, and JavaScript** — with an integrated console, reusable snippets, responsive workspace controls, and optional AI-assisted code generation.
 
-🌐 **[CODE BITS EDITOR](https://code-bits-editor.vercel.app/)** ·
+🌐 **[Launch Code Bits Editor](https://code-bits-editor.vercel.app/)** ·
 **[Astitva Srivastava | LinkedIn](https://www.linkedin.com/in/dev-astitva/)**
 
 ---
 
 ## Overview
 
-Code Bits Editor is a personal web application designed and developed
-from scratch by **Astitva Srivastava**.
+**Code Bits Editor** is a personal browser-based development environment designed and built from scratch by **Astitva Srivastava**.
 
-It provides a lightweight browser-based environment where users can
-write HTML, CSS, and JavaScript, see changes through a live preview,
-manage reusable snippets, and experiment with AI-assisted code
-generation.
+The goal is to make front-end experimentation quick and convenient without requiring a traditional local development setup for every small idea. The editor brings HTML, CSS, JavaScript, preview, console output, snippets, and optional AI assistance into one workspace.
 
-The application is designed as a client-side experience with a focus
-on usability, responsive workspace management, and an interactive
-development workflow.
+The project is designed primarily as a client-side web experience, with supporting services used where necessary for features such as AI-assisted generation.
 
 ---
 
 ## Features
 
-- 🧑‍💻 **HTML, CSS & JavaScript Editing**
-  
-  Dedicated Ace Editor panes for each language.
+### 🧑‍💻 HTML, CSS & JavaScript Editing
 
-- ⚡ **Live Preview**
-  
-  Changes are reflected in the preview environment while editing.
+Dedicated **Ace Editor** panes for:
 
-- 🖥️ **Responsive Workspace**
-  
-  Adjustable editor and preview layout for larger screens.
+- HTML
+- CSS
+- JavaScript
 
-- 🖥️ **Integrated Console**
-  
-  JavaScript console output and errors can be viewed directly inside
-  the application.
+Each language can be switched from the interface while keeping the editing workflow in one workspace.
 
-- 📝 **Snippet Manager**
-  
-  Save, search, edit, copy, and delete reusable code snippets.
+### ⚡ Interactive Preview
 
-- 💾 **Local Persistence**
-  
-  Editor content and saved snippets persist locally in the browser.
+Run the current project directly in the browser and see the result alongside the editor.
 
-- 🤖 **AI Code Generation**
-  
-  Optional Google Gemini integration for generating HTML, CSS, and
-  JavaScript snippets.
+The preview environment is designed for experimenting with complete front-end pages, including HTML structure, CSS styling, and JavaScript behavior.
 
-- 📦 **Export Tools**
-  
-  Copy or download the combined project as an HTML document, with an
-  optional output window.
+### 🖥️ Responsive Workspace
 
-- ⌨️ **Keyboard Shortcuts**
-  
-  Shortcuts are available for navigation, language switching,
-  preview refresh, and other common actions.
+Adjust the balance between the editor and preview area to focus on either coding or output.
+
+The interface also adapts its workspace behavior for different screen sizes.
+
+### 🖥️ Integrated Console
+
+JavaScript output and runtime messages can be viewed directly inside Code Bits Editor through the built-in console.
+
+This makes it possible to experiment with JavaScript without constantly switching to browser developer tools.
+
+### 📝 Snippet Manager
+
+Create a personal collection of reusable snippets.
+
+The snippet workspace supports:
+
+- Saving snippets
+- Searching snippets
+- Editing saved snippets
+- Copying snippets
+- Deleting snippets
+- Saving complete projects as snippets
+
+### 🤖 AI-Assisted Code Generation
+
+An optional AI assistant helps generate HTML, CSS, or JavaScript from a natural-language description.
+
+Generated code can be:
+
+- Copied
+- Inserted directly into the active editor
+- Saved as a reusable snippet
+
+### 💾 Local Persistence
+
+Editor content and saved snippets are persisted in the browser so work can survive a page reload.
+
+### 📦 Export & Output Tools
+
+The application provides tools for working with the current project outside the editor, including:
+
+- Copying the combined project code
+- Downloading the project as an HTML file
+- Opening the current project in a separate output window
+
+### ⌨️ Keyboard Shortcuts
+
+Common editor actions such as language switching, preview refresh, menu control, and copying can be accessed through keyboard shortcuts.
 
 ---
 
-## AI Assistant
+## Screenshots
 
-Code Bits Editor includes an optional AI assistant powered by
-**Google Gemini**.
+> Place the screenshots below inside the `screenshots/` folder using the exact filenames shown.
 
-Users can:
+### 1.png — Main Workspace
 
-1. Select HTML, CSS, or JavaScript.
-2. Describe the desired functionality.
-3. Generate a code snippet.
-4. Copy the generated result.
-5. Insert it directly into the active editor.
-6. Save it as a reusable snippet.
+![Code Bits Editor — Main Workspace](screenshots/1.png)
 
-The current implementation uses **Gemini 3.7 Flash**.
+The primary Code Bits workspace showing the editor, application controls, preview area, and overall interface.
 
-A Gemini API key is required for live AI generation. A local demo mode
-is also available for testing the interface without making an API
-request.
+---
+
+### 2.png — HTML + Live Preview
+
+![Code Bits Editor — HTML Preview](screenshots/2.png)
+
+Show a meaningful HTML example running in the preview. Prefer a small but visually recognizable page rather than an empty document.
+
+---
+
+### 3.png — CSS Styling Workflow
+
+![Code Bits Editor — CSS Styling](screenshots/3.png)
+
+Show the CSS editor with a clearly styled project visible in the preview. This screenshot should demonstrate that the editor is useful for real visual experimentation.
+
+---
+
+### 4.png — JavaScript + Console
+
+![Code Bits Editor — JavaScript Console](screenshots/4.png)
+
+Show JavaScript in the editor together with useful console output in Code Bits' integrated console.
+
+A good example is a small interactive project that logs values, events, or results rather than displaying an error.
+
+---
+
+### 5.png — Snippet Manager
+
+![Code Bits Editor — Snippet Manager](screenshots/5.png)
+
+Show the Saved Snippets interface with several well-named snippets visible. The screenshot should make the save, search, and reusable-code workflow obvious.
+
+---
+
+### 6.png — AI Assistant
+
+![Code Bits Editor — AI Assistant](screenshots/6.png)
+
+Show the AI tab generating a useful HTML/CSS/JavaScript snippet. Keep the prompt and generated result readable so the purpose of the feature is immediately clear.
+
+---
+
+### 7.png — Workspace / Output Workflow
+
+![Code Bits Editor — Workspace and Output](screenshots/7.png)
+
+Show a strong final-project workflow such as an expanded preview, adjusted editor/preview split, or the output window. Use this screenshot to demonstrate the flexibility of the workspace rather than repeating the main editor view.
 
 ---
 
@@ -95,71 +156,56 @@ request.
 - **CSS3**
 - **JavaScript**
 - **Ace Editor**
-- **Google Gemini API**
 - **Browser Local Storage**
+- **Google Gemini** for optional AI-assisted generation
+- **Vercel** for deployment
 
 ---
 
-## Architecture
+## How It Works
 
-Code Bits Editor follows a client-side architecture built around
-three primary layers:
+Code Bits Editor combines a few focused layers:
 
-- **HTML** — application structure and interface components
-- **CSS** — layout, visual styling, responsive behavior, and overlays
-- **JavaScript** — editor management, application state, preview
-  updates, snippets, export functionality, and AI integration
+- **HTML** defines the application structure and interface.
+- **CSS** controls the layout, visual design, responsive behavior, and overlays.
+- **JavaScript** manages the editors, project state, persistence, snippets, preview workflow, console, shortcuts, and integrations.
+- A dedicated preview environment is used for running the user's front-end project separately from the main editor experience.
 
-The workspace combines code editing with an isolated preview
-environment, allowing users to experiment with their code directly
-in the browser.
+The result is a single browser workspace for writing code, experimenting with it, and managing small reusable pieces of work.
 
 ---
 
-## Screenshots
+## AI Assistant
 
-### Main Editor
+The optional AI assistant is designed around a simple workflow:
 
-![Code Bits Editor](screenshots/Screenshot%202026-09-02%20005603.png)
+1. Choose HTML, CSS, or JavaScript.
+2. Describe what you want to build.
+3. Generate a snippet.
+4. Review the result.
+5. Copy it, insert it into the editor, or save it for reuse.
 
-### AI Assistant
-
-![Editor and Preview](screenshots/Screenshot%202026-09-02%20005615.png)
-
-### Editor & Preview
-
-![AI Assistant](screenshots/Screenshot%202026-09-02%20005635.png)
-
-### Snippets & Tools
-
-![Snippets and Tools](screenshots/Screenshot%202026-09-02%20005652.png)
-
-### Code Bits Interface with Saved Snippets
-
-![Code Bits Interface](screenshots/Screenshot%202026-09-02%20005708.png)
+The AI functionality is an enhancement to the editor rather than a requirement for using the core HTML/CSS/JavaScript workflow.
 
 ---
 
 ## Live Demo
 
-Experience the complete application:
+Try the deployed application:
 
 **[Launch Code Bits Editor](https://code-bits-editor.vercel.app/)**
 
-The live application is hosted on Vercel and is provided for
-demonstration and portfolio purposes.
+The live deployment is primarily intended for demonstration and portfolio purposes.
 
 ---
 
-## Source Code
+## Public Repository
 
-> 🔒 **Source Code Notice:**  
-> The source code, design, implementation, and underlying logic of
-> Code Bits Editor are proprietary and maintained in a private
-> repository.
+This repository is a **public project showcase**.
 
-This public repository contains project documentation and selected
-visual assets for portfolio and demonstration purposes.
+The complete source code, internal implementation details, deployment configuration, and private development infrastructure are intentionally not included here.
+
+The repository is intended to document the project, demonstrate its capabilities, and provide a link to the deployed application.
 
 ---
 
@@ -167,7 +213,7 @@ visual assets for portfolio and demonstration purposes.
 
 **Astitva Srivastava**
 
-**[Astitva Srivastava | LinkedIn](https://www.linkedin.com/in/dev-astitva/)**
+**[LinkedIn](https://www.linkedin.com/in/dev-astitva/)**
 
 ---
 
@@ -175,8 +221,6 @@ visual assets for portfolio and demonstration purposes.
 
 All rights reserved.
 
-The source code, design, implementation, and underlying logic of
-Code Bits Editor are proprietary.
+The source code, design, implementation, assets, and underlying logic of Code Bits Editor are proprietary unless explicitly stated otherwise.
 
-Unauthorized copying, reproduction, redistribution, modification,
-or reverse engineering of the application is not permitted.
+Unauthorized copying, redistribution, modification, or reproduction of the project is not permitted.
