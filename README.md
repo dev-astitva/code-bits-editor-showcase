@@ -140,9 +140,9 @@ A generated project opened as a standalone output window, demonstrating how a pr
 
 ### 9.png — Workspace Loading Experience
 
-![Code Bits Editor — Loading Experience](screenshots/9.png)
+![Code Bits Editor — HTML+CSS](screenshots/9.png)
 
-The Code Bits workspace loading screen, showing the application's startup experience before the editor becomes available.
+The Code Bits demo project loading screen, showing the application's startup experience (made using AI via the integrated-AI feature on snippet panel).
 
 ### 10.png — Starter Project
 
@@ -152,9 +152,8 @@ The clean starter workspace with the default HTML structure and an empty preview
 
 ### 11.png — Custom Loading Interface
 
-![Code Bits Editor — Custom Loading Interface](screenshots/11.png)
+![Code Bits Editor — RAW HTML CODE](screenshots/11.png)
 
-A project that uses the editor to build a custom loading interface, demonstrating that Code Bits can be used to prototype complete front-end experiences rather than isolated code snippets.
 
 ---
 
